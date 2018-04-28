@@ -1,0 +1,16 @@
+jetty:
+  connectors:
+    - port: 9999
+
+shiro:
+  realms:
+    - users:
+        adminuser: "password, admin, user"
+        user: "password, user"
+      roles:
+        admin: "admin"
+
+shiroweb:
+  urls:
+    "/private" : perms[admin]
+    "/pub"   : anon
