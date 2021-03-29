@@ -1,3 +1,4 @@
+[![verify](https://github.com/bootique-examples/bootique-shiro-demo/actions/workflows/verify.yml/badge.svg)](https://github.com/bootique-examples/bootique-shiro-demo/actions/workflows/verify.yml)
 # bootique-shiro-demo
 
 Simple [Bootique](http://bootique.io) app demonstrating the Bootique Shiro Module with Jersey.
