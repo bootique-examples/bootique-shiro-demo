@@ -17,7 +17,7 @@ mvn package
 Enter the following to launch the app in Maven.
 
 ```bash
-java -jar target/bootique-mvc-demo-1.0-SNAPSHOT.jar
+java -jar target/bootique-shiro-demo-1.0-SNAPSHOT.jar
 ```
 
 After launching the app, go to
