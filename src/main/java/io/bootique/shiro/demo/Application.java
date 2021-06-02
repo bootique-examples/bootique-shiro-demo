@@ -1,13 +1,13 @@
 package io.bootique.shiro.demo;
 
-import com.google.inject.Binder;
-import com.google.inject.Module;
 import io.bootique.Bootique;
+import io.bootique.di.BQModule;
+import io.bootique.di.Binder;
 import io.bootique.jersey.JerseyModule;
 import io.bootique.shiro.demo.controller.LoginController;
 import io.bootique.shiro.demo.controller.ShiroController;
 
-public class Application implements Module {
+public class Application implements BQModule {
 
     public static void main(String[] args) {
         Bootique
